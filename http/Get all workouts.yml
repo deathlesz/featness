@@ -1,0 +1,15 @@
+info:
+  name: Get all workouts
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: http://localhost:8080/api/workouts
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

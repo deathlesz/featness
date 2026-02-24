@@ -1,0 +1,19 @@
+info:
+  name: Get workouts by type
+  type: http
+  seq: 2
+
+http:
+  method: GET
+  url: http://localhost:8080/api/workouts?type=cardio
+  params:
+    - name: type
+      value: cardio
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
