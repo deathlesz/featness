@@ -1,8 +1,21 @@
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=deathlesz_featness)](https://sonarcloud.io/summary/new_code?id=deathlesz_featness)
+
 # Featness
 
 Exactly what you need for all your fitness needs.
 Plan out your workouts, manage your exercises, and track your weight progression
 all in one place.
+
+## Implemented
+
+- [x] Basic REST Service
+- [ ] JPA
+- [ ] Data caching
+- [ ] Error logging/handling
+- [ ] Batch data processing & Testing
+- [ ] Concurrency
+- [ ] Client
+- [ ] Deploy
 
 ## Technologies
 
